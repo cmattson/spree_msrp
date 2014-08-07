@@ -36,6 +36,11 @@ bundle
 bundle exec rails g spree_msrp:install
 ```
 
+After installation, MSRP values are exposed as `msrp` on Product and Variants.
+
+MSRP fields are conveniently added to the admin interface immediately after the
+price field.
+
 Testing
 -------
 

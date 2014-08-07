@@ -1,7 +1,11 @@
 SpreeMsrp
 =========
 
-Introduction goes here.
+Add Manufacturer's Suggested Retail Price (MSRP) data to your products.
+
+**Note**: This extension only adds MSRP to the products table and the admin
+interface. It is assumed that you have your own views or Deface
+overrides that you'd like to use.
 
 Installation
 ------------
@@ -29,11 +33,11 @@ bundle
 bundle exec rake
 ```
 
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
+When testing your application's integration with this extension you may use its factories.
+Simply add this require statement to your `spec_helper`:
 
 ```ruby
 require 'spree_msrp/factories'
 ```
 
-Copyright (c) 2014 [name of extension creator], released under the New BSD License
+Copyright (c) 2014 Colin Mattson, released under the New BSD License

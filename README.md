@@ -3,9 +3,22 @@ SpreeMsrp
 
 Add Manufacturer's Suggested Retail Price (MSRP) data to your products.
 
-**Note**: This extension only adds MSRP to the products table and the admin
+Useful for all kinds of things, including:
+
+* Showing your customers the MSRP
+* Showing your customers how much they're saving
+* Showing your customers the MSRP
+
+Notes
+-----
+
+This extension only adds MSRP to the products/variants tables and the admin
 interface. It is assumed that you have your own views or Deface
 overrides that you'd like to use.
+
+While a variant form field is provided, it is not prepopulated with the master
+product's MSRP. (If you use variants, this is low-hanging fruit for a pull
+request. :D)
 
 Installation
 ------------

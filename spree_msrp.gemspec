@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_msrp'
-  s.version     = '2.3.1.1'
+  s.version     = '2.2.4'
   s.summary     = 'Add MSRP to Spree products'
   s.description = 'Add MSRP to Spree products'
   s.required_ruby_version = '>= 1.9.3'
@@ -11,12 +11,12 @@ Gem::Specification.new do |s|
   s.email     = 'colinmattson@gmail.com'
   s.homepage  = 'https://www.github.com/cmattson/spree_msrp'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files       = `git ls-files`.split("\n")
+  s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3.1'
+  s.add_dependency 'spree_core', '~> 2.2.4'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'

@@ -1,1 +1,2 @@
+'2.2.x' => { branch: '2-2-stable' }
 '2.3.x' => { branch: '2-3-stable' }

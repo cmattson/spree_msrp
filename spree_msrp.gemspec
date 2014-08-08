@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_msrp'
-  s.version     = '2.3.1.1'
+  s.version     = '2.3.1.2'
   s.summary     = 'Add MSRP to Spree products'
   s.description = 'Add MSRP to Spree products'
   s.required_ruby_version = '>= 1.9.3'

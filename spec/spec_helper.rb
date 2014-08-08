@@ -1,5 +1,3 @@
-require 'pry'
-
 # Run Coverage report
 require 'simplecov'
 SimpleCov.start do
@@ -25,11 +23,10 @@ require 'ffaker'
 # in spec/support/ and its subdirectories.
 Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].each { |f| require f }
 
-# Requires factories and other useful helpers defined in spree_core.
-require 'spree/testing_support/authorization_helpers'
-require 'spree/testing_support/capybara_ext'
-require 'spree/testing_support/controller_requests'
+# Requires factories defined in spree_core
 require 'spree/testing_support/factories'
+require 'spree/testing_support/controller_requests'
+require 'spree/testing_support/authorization_helpers'
 require 'spree/testing_support/url_helpers'
 
 # Requires factories defined in lib/spree_msrp/factories.rb
@@ -82,5 +79,4 @@ RSpec.configure do |config|
   end
 
   config.fail_fast = ENV['FAIL_FAST'] || false
-  config.order = "random"
 end
